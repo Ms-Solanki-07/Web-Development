@@ -1,0 +1,345 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    box-sizing: border-box;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.writen p {
+    font-size: 9px;
+    text-align: right;
+}
+
+.right ul {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin-left: 300px;
+}
+
+.right ul li {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.right ul li img {
+    width: 8px;
+    padding: 6px;
+}
+
+.right ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.trans {
+    height: 89px;
+}
+
+.right ul li a {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.c1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+
+.c2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.c3 {
+    background-color: rgb(143, 164, 219);
+    height: 27px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin: 34px;
+}
+
+.c3:hover {
+    background-color: rgb(116, 137, 189);
+}
+.c3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.c4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin: 50px 480px 50px 0px;
+}
+
+.grid {
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.grid div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 220px;
+    background-color: rgb(238, 238, 246);
+    border-radius: 4px;
+}
+
+.box h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(71, 147, 71);
+    height: 18px;
+    padding: 6px 18px 5px 18px;
+    border-radius: 4px;
+}
+
+#short {
+    font-size: 13px;
+    margin-top: 22px;
+}
+
+#long {
+    font-size: 8px;
+    margin-top: 8px;
+}
+
+.f1 {
+    background-color: rgb(34, 29, 29);
+    height: 760px;
+}
+
+.footer-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 80px;
+    font-family: "Baloo 2", sans-serif;
+    /* background-color: yellow; */
+}
+
+.join h2 {
+    margin-top: 180px;
+    margin-bottom: 6px;
+    font-size: 33px;
+}
+
+.join p {
+    font-size: 16px;
+    word-spacing: 1px;
+}
+
+.subscribe {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 250px;
+    width: 350px;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.subscribe h2 {
+    margin-top: 40px;
+    color: rgb(182, 150, 212);
+}
+
+.subscribe p {
+    margin-top: 30px;
+}
+
+.subscribe input {
+    width: 250px;
+    height: 36px;
+    margin: 4px;
+    font-size: medium;
+    text-align: center;
+}
+
+.subscribe button {
+    width: 250px;
+    height: 36px;
+    margin: 4px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(208, 185, 229);
+    border-radius: 5px;
+}
+
+.footer-container2 {
+    margin: 120px 190px 120px 190px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Baloo 2", sans-serif;
+    gap: 20px;
+}
+
+.footer-container2 h2 {
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.footer-container2 p,span {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer-container2 div span a{
+    text-decoration: none;
+    color: rgb(93, 123, 175);
+}
+
+.f2{
+    background-color: rgb(255, 251, 251);
+    height: 600px;
+    font-family: "Baloo 2", sans-serif;
+}
+.f2-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    gap:45px;
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    
+}
+.language h3{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.language a{
+    text-decoration: none;
+    color: rgb(38, 35, 35);
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.newletter p{
+    color:  rgb(38, 35, 35);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.newletter input{
+    height: 33px;
+    margin-bottom: 7px;
+    font-size: medium;
+    text-align: center;
+    border: 0.5px normal rgb(154, 123, 123);
+}
+.newletter button{
+    height: 33px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    background-color: rgb(121, 189, 218);
+    font-weight: bold;
+}
+
+.f2-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap: 200px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:14px
+}
+.social img:hover{
+    transform: scale(1.3);
+}
