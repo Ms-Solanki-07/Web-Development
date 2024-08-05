@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(170, 134, 134);
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 70vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    width: 60vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 8px;
+    border: none;
+    background-color: white ;
+    font-size: 4rem;
+    font-weight: 600;
+    box-shadow: 2px 2px 1px 1px rgba(72, 72, 76, 0.591);
+    color: black;
+}
+.box:hover{
+    background-color: rgb(227, 210, 210) ;
+}
+
+.btn {
+    display: flex;
+    gap: 9px;
+    text-align: center;
+}
+
+#reset{
+    margin-top: 8px;
+    width: 18vmin;
+    height: 6vmin;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(135, 182, 223) ;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgba(72, 72, 76, 0.477);
+}
+#reset:hover {
+    background-color: rgb(100, 163, 218) ;
+}
+
+#new{
+    margin-top: 8px;
+    width: 18vmin;
+    height: 6vmin;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(135, 182, 223) ;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgba(72, 72, 76, 0.477);
+}
+#new:hover {
+    background-color: rgb(100, 163, 218) ;
+}
+h3{
+    background-color: rgb(11, 46, 77) ;
+    padding: 6px 20px;
+    margin-top: 6px;
+    box-shadow: 2px 2px 2px 2px rgba(72, 72, 76, 0.477);
+    border-radius: 8px;
+    color: white;
+}
