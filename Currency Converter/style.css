@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #677D6A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      
+}
+
+.container{
+    background-color: rgb(233, 218, 218);
+    height: 73vh;
+    width: 350px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.container h2{
+    background-color: #D6BD98;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 3px;
+    font-family: poppins;
+}
+
+.amount{
+    text-align: left;
+    margin: 2rem 0.75rem;
+}
+.amount p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.amount input{
+    height: 2rem;
+    width: 93%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 0.5px solid rgb(184, 163, 163);
+    margin-top: 3px;
+    padding: 4px 8px;
+    outline: none;
+}
+
+.drop-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    margin-top: 50px;
+}
+.drop-down p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 4px;
+    border: 1px solid rgb(171, 157, 157); 
+    gap:4px;
+    background-color: rgb(222, 202, 202);
+    margin-top: 4px;
+}
+.select-container img{
+    max-width: 2rem;
+}
+.select-container select{
+    border: none;
+    background-color: rgb(222, 202, 202);
+    outline: none;
+    font-size: 0.90rem;
+}
+.drop-down i{
+    margin-top: 27px;
+}
+
+.msg{
+    margin: 56px 16px 4px 16px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+form button{
+    width: 90%;
+    height: 2.5rem;
+    margin-top:9px;
+    border: none;
+    background-color: rgba(245, 76, 14, 0.91);
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
